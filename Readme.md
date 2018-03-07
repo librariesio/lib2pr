@@ -15,9 +15,7 @@ The actual pr code is provided by https://github.com/dependabot/dependabot-core 
 
 ## Usage
 
-The easiest option is to deploy to heroku with the deploy button below:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+The easiest option is to deploy with docker: https://hub.docker.com/r/librariesio/lib2pr/
 
 Then add the url of your app to web hooks section for your repo on https://libraries.io
 
