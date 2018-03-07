@@ -2,6 +2,17 @@
 
 Sinatra app for creating GitHub pull request whenever a new version of a dependency is discovered by [Libraries.io](https://libraries.io) using the repository web hook feature.
 
+Supports updating packages from:
+
+- rubygems (ruby)
+- npm/yarn (javascript)
+- maven (java)
+- pypi (python)
+- composer/packagist (php)
+- Hex (elixir)
+
+The actual pr code is provided by https://github.com/dependabot/dependabot-core ❤️
+
 ## Usage
 
 The easiest option is to deploy to heroku with the deploy button below:
@@ -14,7 +25,7 @@ Then add the url of your app to web hooks section for your repo on https://libra
 
 Or to run it somewhere else, clone it from github:
 
-   git clone https://github.com/librariesio/lib2pr.git
+    git clone https://github.com/librariesio/lib2pr.git
 
 Install dependencies:
 
@@ -61,4 +72,4 @@ rbenv global 2.5.0
 
 ## Copyright
 
-Copyright (c) 2016 Andrew Nesbitt. See [LICENSE](https://github.com/librariesio/lib2pr/blob/master/LICENSE) for details.
+Copyright (c) 2018 Andrew Nesbitt. See [LICENSE](https://github.com/librariesio/lib2pr/blob/master/LICENSE.txt) for details.
