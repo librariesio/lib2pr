@@ -1,0 +1,18 @@
+{
+  "name": "Lib2Pr",
+  "description": "Create GitHub PRs from Libraries.io webhooks",
+  "repository": "https://github.com/librariesio/lib2pr",
+  "logo": "https://avatars3.githubusercontent.com/u/11243589?v=3&s=400",
+  "keywords": ["GitHub", "dependency", "ruby", "update", "Libraries.io"],
+  "env": {
+    "RACK_ENV": "production",
+    "GITHUB_TOKEN": {
+            "description": "Your GitHub OAuth Token",
+            "value": ""
+    },
+    "SKIP_PRERELEASE": {
+            "description": "Don't open issues for prerelease versions",
+            "value": "true"
+    }
+  }
+}
