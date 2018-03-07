@@ -1,4 +1,4 @@
-# [Lib2Pr](https://libraries.io/github/librariesio/lib2pr)
+# Lib2Pr
 
 Sinatra app for creating GitHub pull request whenever a new version of a dependency is discovered by [Libraries.io](https://libraries.io) using the repository web hook feature.
 
