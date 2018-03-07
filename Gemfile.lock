@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:dependabot/dependabot-core.git
+  remote: https://github.com/dependabot/dependabot-core.git
   revision: 3b6619e64a2128d0fe3845365857dce77438ab03
   specs:
     dependabot-core (0.49.15)
